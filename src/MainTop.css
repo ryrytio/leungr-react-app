@@ -1,0 +1,41 @@
+.top_body{
+  display: flex;
+  justify-content: space-between;
+}
+
+.main_left{
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.main_right{
+  padding-left: 50px;
+  padding-right: 30px;
+}
+
+.sunset{
+  max-width: 700px;
+  max-height: 450px;
+  padding-bottom: 50px;
+}
+
+.contact_button{
+  background-color: black;
+border: none;
+color: white;
+padding: 15px 28px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+border-radius: 99px;
+font-family: 'Montserrat', sans-serif;
+}
+
+.grow {
+transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+transform: scale(1.07);
+}

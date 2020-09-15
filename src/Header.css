@@ -1,0 +1,20 @@
+.header_main {
+  display:flex;
+  justify-content: space-between;
+}
+
+.header_left{
+  padding-left: 15px;
+}
+
+.header_right{
+  padding-right: 15px;
+  padding-top: 15px;
+}
+
+.header_logos{
+  color: black;
+}
+.header_logos:hover {
+  color: white;
+}
